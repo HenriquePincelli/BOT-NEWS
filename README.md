@@ -1,11 +1,8 @@
-# Template: Python - Browser automation with Playwright
+# Template: Python - Data collect with Botcity
 
-This template leverages the new [Python framework](https://github.com/robocorp/robocorp), the [libraries](https://github.com/robocorp/robocorp/blob/master/docs/README.md#python-libraries) from to same project as well.
+This template leverages the new Python framework, the libraries from to same project as well.
 
-The template provides you with the basic structure of a Python project: logging out of the box and controlling your tasks without fiddling with the base Python stuff. The environment contains the most used libraries, so you do not have to start thinking about those right away. 
-With `robocorp-browser`, the browser automation uses Playwright without any extra steps. 
-
-👉 Other templates are available as well via our tooling and on our [Portal](https://robocorp.com/portal/tag/template)
+The architecture is inspired by the Domain-Driven Design (DDD) model, providing a structured approach to building scalable and maintainable applications. This project is designed to run a bot developed using the BotCity framework, enabling seamless automation while maintaining clarity between business logic and implementation details. The environment comes pre-configured with essential libraries, so you can focus on task execution without worrying about the underlying Python setup.
 
 ## Running
 
