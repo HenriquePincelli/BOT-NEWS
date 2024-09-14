@@ -1,4 +1,4 @@
-from RPA_APP.bots import rpa_aljazeera
+from RPA_APP.bots import bot_aljazeera
 from robocorp.tasks import task
 import sys
 import json
@@ -7,7 +7,7 @@ import json
 @task
 def init_rpa():
     try:
-        rpa_aljazeera()
+        bot_aljazeera()
     except Exception as e:
             # >>>>>>>>>Tracing the Error>>>>>>>>>
             exc_type, exc_value, exc_traceback = sys.exc_info()

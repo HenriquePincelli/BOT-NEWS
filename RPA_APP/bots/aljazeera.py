@@ -2,7 +2,7 @@ from RPA_APP.rpa.procedures import RPAAljazeera
 from RPA_APP.config import EMAIL_ALJAZEERA, SERCH_PHRASE_ALJAZEERA, SHOW_MORE_ALJAZEERA
 
 
-def rpa_aljazeera():
+def bot_aljazeera():
     """Function to init RPA's"""
 
     # >>>>>>>>>Aljazeera's RPA>>>>>>>>>
