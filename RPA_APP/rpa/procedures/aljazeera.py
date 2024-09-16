@@ -47,10 +47,10 @@ class RPAAljazeera:
                 return_email = service.send_excel_email(payload["email"], "Aljazeera Excel", directory, excel_filename)
                 if not return_email["status"]:
                     return {"status": False, "msg": return_email["msg"]}
-                return {"status": True, "msg": f"News Storaged and Sent to Email: {payload['email']}"}
+                return {"status": True, "msg": f"News extracted and sent to email: {payload['email']}"}
             # <<<<<<<<<Send excel file by email<<<<<<<<<
 
-            return {"status": True, "msg": f"News Storaged."}
+            return {"status": True, "msg": f"News extracted and sent to email."}
         except Exception as e:
             # >>>>>>>>>Tracing the Error>>>>>>>>>
             exc_type, exc_value, exc_traceback = sys.exc_info()
